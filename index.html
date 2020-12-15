@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IT Girl Travel</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<div id="app">
+
+      <!-- Your main view, should have "view-main" class -->
+      <section class="view view-main view-init">
+        
+        
+        <section class="panel panel-left panel-cover">
+        	<div class="panel-top">
+        		Menú Navegación
+        	</div>
+        	
+        	<div class="list list-menu media-list">
+        		<ul>
+        			<li>
+					  <a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">home</i>
+						</div>
+						<div class="item-inner">
+						  <h4 class="item-title">Home</h4>
+						</div>
+					  </a>
+					</li>
+       				<li>
+       				<li>
+					  <a href="/productos/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">book</i>
+						</div>
+						<div class="item-inner">
+						  <h4 class="item-title">IT Places</h4>
+						</div>
+					  </a>
+					</li>
+       				<li>
+					  <a href="/productos.html" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">local_offer</i>
+						</div>
+						<div class="item-inner">
+						  <h4 class="item-title">Promos</h4>
+						</div>
+					  </a>
+					</li>
+       				<li>
+					  <a href="#" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">card_giftcard</i>
+						</div>
+						<div class="item-inner">
+						  <h4 class="item-title">Gift Cards</h4>
+						</div>
+					  </a>
+					</li>
+       				<li>
+					  <a href="/perfil.html/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">account_circle</i>
+						</div>
+						<div class="item-inner">
+						  <h4 class="item-title">My Profile</h4>
+						</div>
+					  </a>
+					</li>
+       				<li>
+					  <a href="#" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">exit_to_app</i>
+						</div>
+						<div class="item-inner">
+						  <h4 class="item-title">Salir</h4>
+						</div>
+					  </a>
+					</li>
+        		</ul>
+        	</div>
+        </section>
+        
+        
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+             	<div class="left"></div>
+              	<div class="title">It Girl Travel</div>
+              	<div class="right">
+       		    <a href="#" class="link panel-open" data-panel="left"><i class="material-icons">menu</i></a>
+            </div>
+          </nav>
+
+          
+
+          <!-- Scrollable page content -->
+          <section class="page-content">
+           
+           	<div class="block intro">
+           		<h2>Hi It Girl, <span>Andy</span></h2>
+            	<h3>Where are we influencing today?</h3>
+           	</div>
+           	
+           	<div class="block">
+           		<article class="card card-intro">
+					 <a href="/info.html" class="item-link item-content panel-close">
+           			<div class="card-content card-content-padding">
+           				<div class="row">
+           					<article class="col-60">
+           						<h5><span class="material-icons">star</span> 5.0</h5>
+           						<h4>Pick of the Day</h4>
+           						<h3>Ice Cream Museum</h3>
+           						<span class="precio">Only $38 per person in MIA</span>
+           					</article>
+           					<article class="col-40">
+           						<img src="img/Screen Shot 2020-12-14 at 7.22.47 PM.png" width="264" height="150" class="img-fluid">
+           					</article>
+           				</div>
+           			</div>
+           		</article>
+           	</div>
+            
+            <h2 class="block-title">Popular</h2>
+            <div class="block">
+            	
+            	
+            	<div class="swiper-container swiper-init" data-speed="400" data-space-between="5" data-slides-per-view="2">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<article class="card card-popular">
+								<div class="card-content card-content-padding">
+									<img src="img/Screen Shot 2020-12-14 at 7.16.11 PM.png" class="img-fluid">
+									<h3>South Korea</h3>
+									<h4>Garden of Lights</h4>
+								</div>
+								<div class="card-footer">
+									3000$ plane ticket + connections
+									<a href="#"><span class="material-icons">add</span></a>
+								</div>
+							</article>
+						</div>
+						<div class="swiper-slide">
+							<article class="card card-popular">
+								<div class="card-content card-content-padding">
+									<img src="img/london.jpg" class="img-fluid">
+									<h3>UK London</h3>
+									<h4>London EYE</h4>
+								</div>
+								<div class="card-footer">
+									$5000 plane ticket + connections
+									<a href="#"><span class="material-icons">add</span></a>
+								</div>
+							</article>
+						</div>
+						<div class="swiper-slide">
+							<article class="card card-popular">
+								<div class="card-content card-content-padding">
+									<img src="img/Screen Shot 2020-12-14 at 7.29.14 PM.png" class="img-fluid">
+									<h3>Greece</h3>
+									<h4>Kapathos Island</h4>
+								</div>
+								<div class="card-footer">
+									$2000 plane ticket + connections
+									<a href="#"><span class="material-icons">add</span></a>
+								</div>
+							</article>
+						</div>
+						
+					</div>
+				</div>
+            	
+            </div>
+					<div class="swiper-slide">
+							<article class="card card-popular">
+								<div class="card-content card-content-padding">
+									<img src="img/cantarranas.jpeg" class="img-fluid">
+									<h3>Honduras</h3>
+									<h4>Cantarranas</h4>
+								</div>
+								<div class="card-footer">
+									$500 plane ticket
+									<a href="#"><span class="material-icons">add</span></a>
+								</div>
+							</article>
+						</div>
+            
+            <h2 class="block-title">Popular</h2>
+            
+          </section><!--content-->
+          
+        </div><!--page-->
+        
+        <div class="toolbar tabbar tabbar-labels toolbar-bottom">
+			<div class="toolbar-inner">
+			  <a class="link"><i class="material-icons">home</i> <span class="tabbar-label">Home</span></a>
+			  <a class="link"><i class="material-icons">book</i> <span class="tabbar-label">Order</span></a>
+			  <a class="link"><i class="material-icons">account_balance_wallet</i> <span class="tabbar-label">Wallet</span></a>
+			  <a class="link"><i class="material-icons">account_circle</i> <span class="tabbar-label">Profile</span></a>
+			</div>
+		</div>
+        
+      </section><!--view-->
+      
+    </div><!--app-->
+	
+	
+
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/my-app.js"></script>
+
+</body>
+</html>
